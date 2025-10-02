@@ -234,6 +234,8 @@ header ul a:hover{
     animation-delay: 0.5s;
     /* animation: scroll-down 1s ease-in-out infinite; */
   }
+
+
   
   @keyframes scroll-down {
     0% {
@@ -252,6 +254,8 @@ header ul a:hover{
     }
   }
 
+
+  
 
 
 
@@ -313,7 +317,7 @@ header ul a:hover{
 }
 
 .card img{
-    width: 80%;
+    width: 50%;
     height: 50%;
     object-fit: cover;
 }
