@@ -1137,8 +1137,25 @@ header ul a:hover{
 
 @media screen and (max-width: 480px) {
 
-    .hero .skills-video-box {
+    header{
+        position: fixed;
+        height: 50px;
+    }
+
+    header ul{
         display: none;
+    }
+
+    header .box-icons{
+        display: none;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+    .hero .skills-video-box {
+        /* display: none; */
         
     }
 
@@ -1162,20 +1179,34 @@ header ul a:hover{
     }
 
     .hero {
-        scale: 0.9;
+        flex-direction: column;
+    
     }
 
+    .autoBlur{
+        animation: none;
+    }
+
+    
     .hero-info{
-        bottom: 15%;
+        bottom: 5%;
     }
 
     .hero-info h1{
+        line-height: 50px;
         font-size: 35px;
     }
 
+    .hero-info-title{
+        height: 200p;
+    }
+
+    .skills-video-box{
+        height: 30px;
+    }
+
     .scroll-down{
-        bottom: 15%;
-        left: 60%;
+        bottom: 5%;
     }
 
     .section-title {
