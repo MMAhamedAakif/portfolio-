@@ -972,6 +972,11 @@ header ul a:hover{
         display: none;
     }
 
+    header h1{
+        font-size: 25px;
+
+    }
+
     .menu-icon{
         display: inline;
     }
@@ -987,23 +992,35 @@ header ul a:hover{
     
     .hero{
         flex-direction: column;
-        top:0;
-        bottom: 0;
-        left: 0;
-        right:0;
+   
         
     }
+
+    .autoBlur{
+        animation: none;
+
+    }
+
     .hero-info{
-        bottom: 5%;
+        bottom: 2%;
     }
 
     .scroll-down{
         bottom: 5%;
+    } 
+    .hero-info-title{
+        bottom: auto;
+        top: auto;
+    }
+
+    .hero-info h1{
+        line-height: 50px;
     }
 
     .hero .skills-video-box{
-        height: 200px;
-        top: 5%;
+        height: 50px;
+        top: 0%;
+        right: 5%;
     }
 
 
